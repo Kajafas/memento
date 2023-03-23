@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace memento
 {
+    //Extra info oh photo taken
     internal interface IMemento
     {
         public DateTime Time { get; set; }
